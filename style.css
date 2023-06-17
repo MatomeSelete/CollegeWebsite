@@ -37,12 +37,20 @@ ul {
     height: 100vh;
   }
   .homepage, 
-  .campusLife,
   .admissionsAid,
   .programs,
   .aboutus,
   .contacts {
-   margin-top: 45px;
+   padding-top: 90px;
+   width: 100%;
+   height: 100vh;
+   text-align: center;
+   box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+  }
+
+  img {
+    width: 320px;
+    height: 240px;
   }
 
 
@@ -51,7 +59,55 @@ ul {
     
   }
 
+  .welcomeH1 {
+    font-size: 80px;
+  }
+  .welcomep {
+    font-size: 40px;
+  }
 
-  /* =============== About page CODE ===============*/
 
-  
+ /* =============== CAMPUSE LIFE CODE ===============*/
+  .campusLife {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .campusLH1 {
+    font-size: 40px;
+  }
+
+  .campusLP {
+    font-size: 20px;
+  }
+
+  .multiMedia {
+    width: 50%;
+    height: 64vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* =============== ADMISSION & AID CODE ===============*/
+
+  .admissionsAid {
+
+  }
+
+  .admissionH1, .programmsH1 {
+    font-size: 40px;
+  }
+
+  .admissionH3, h3 {
+    font-size: 30px;
+  }
+
+  .admissionP, p {
+    font-size: 20px;
+  }
+
+
+  .programmsH1
